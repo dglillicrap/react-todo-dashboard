@@ -23,7 +23,7 @@ const App = () => {
 
   // Tab title
   useEffect(() => {
-    document.title = '✅ DGL ToDo';
+    document.title = '✅ DGL ToDo',<SignInButton />;
   }, []);
 
   // Load selections when group changes
