@@ -11,12 +11,12 @@ const MsalGuard = ({ children }) => {
       <div style={{ padding: '16px' }}>
         <div className="top-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
           <div className="top-left">
-            <SignInButton />
+            c
           </div>
           <div className="top-center" />
           <div className="top-right" />
         </div>
-        <p>Please sign in to continue...</p>
+        <p>Please sign in to continue...<SignInButton /></p>
       </div>
     );
   }
