@@ -1,0 +1,2 @@
+body{font-family:sans-serif;margin:0}.dashboard{background-color:#d6eaff;min-height:100vh;padding:10px}.top-bar{align-items:center;display:flex;justify-content:space-between;margin-bottom:10px;padding:10px}.top-center,.top-left,.top-right{flex:1 1}.top-center{text-align:center}.panel-grid{grid-gap:10px;display:grid;gap:10px;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,auto)}.panel{border:1px solid #ccc;height:240px;overflow-y:auto;padding:10px}
+/*# sourceMappingURL=main.37bbdb08.css.map*/
