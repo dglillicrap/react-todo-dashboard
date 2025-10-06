@@ -8,7 +8,8 @@ const MsalGuard = ({ children }) => {
   if (!isAuthenticated) {
     // Render the Sign In button while unauthenticated
     return (
-      <div style={{ padding: '16px' }}>
+         <SignInButton />
+        <div style={{ padding: '16px' }}>
         <div className="top-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
           <div className="top-left">
             c
@@ -16,7 +17,7 @@ const MsalGuard = ({ children }) => {
           <div className="top-center" />
           <div className="top-right" />
         </div>
-        <p><SignInButton />Please sign in to continue...</p>
+        <p>Please sign in to continue...</p>
       </div>
     );
   }
