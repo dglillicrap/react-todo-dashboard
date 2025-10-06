@@ -22,7 +22,7 @@ const SignInButton = () => {
   };
 
   return (
-    <div style={{ display: 'flex', gap: '10px' }}>
+    <div style={{ display: 'flex', gap: '8px' }}>
       <button onClick={handleLogin}>Sign In</button>
       <button onClick={handleLogout}>Sign Out</button>
     </div>
