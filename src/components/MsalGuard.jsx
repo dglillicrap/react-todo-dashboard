@@ -16,7 +16,7 @@ const MsalGuard = ({ children }) => {
           <div className="top-center" />
           <div className="top-right" />
         </div>
-        <p>Please sign in to continue...<SignInButton /></p>
+        <p><SignInButton />Please sign in to continue...</p>
       </div>
     );
   }
